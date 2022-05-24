@@ -1,31 +1,21 @@
 body {
   font-family: "Montserrat"
+    text-align:center;
 }
 
-h1 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-  line-height: 2;
-}
-
-h3 {
-  font-family: "Montserrat";
-  font-size: 1.5rem;
-  font-weight: bold;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
 p {
   color: #8f8f8f;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
-
-/* Title Section */
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 /* Navbar */
@@ -49,19 +39,46 @@ p {
 }
 
 /* Download Buttons */
-.Download-button {
+.download-button {
   margin: 5% 3% 5% 0;
+}
+
+/*
+.container-fluid {
+  padding: 7% 15%;
+} */
+#title .container-fluid {
+  padding: 3% 15% 2%;
+}
+
+/* Title Section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
 }
 
 /* Title Image */
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: relative;
+  left: 20%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
 
 /* Feature Section */
 #features {
-  padding: 7% 15%;
+  background-color: #fff;
 }
 
 .feature-box {
@@ -104,4 +121,8 @@ p {
 
 a {
   color: black;
+}
+
+.white-section {
+  background-color: #fff;
 }
