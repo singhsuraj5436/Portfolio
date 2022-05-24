@@ -44,17 +44,16 @@ p {
 }
 
 .container-fluid {
-  /* text-align: center; */
+  text-align: center;
   padding: 7% 15%;
 }
 
 #title .container-fluid {
-  text-align: left;
   padding: 3% 15% 2%;
 }
 
 /* Title Section */
-#title {
+.title-text {
   text-align: left;
 }
 
@@ -66,8 +65,8 @@ p {
   left: 20%;
 }
 
-@media (max-width: 1028px) {
-  #title {
+@media (max-width: 1000px) {
+  .title-text {
     text-align: center;
   }
 
