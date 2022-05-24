@@ -49,6 +49,7 @@ p {
 }
 
 #title .container-fluid {
+  text-align: left;
   padding: 3% 15% 2%;
 }
 
