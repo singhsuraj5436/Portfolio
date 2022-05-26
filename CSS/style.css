@@ -44,12 +44,7 @@ p {
 }
 
 .container-fluid {
-  text-align: center;
   padding: 7% 15%;
-}
-
-#title .container-fluid {
-  padding: 3% 15% 2%;
 }
 
 /* Title Section */
@@ -57,12 +52,16 @@ p {
   text-align: left;
 }
 
+#title .container-fluid {
+  padding: 3% 15% 2%;
+}
+
 /* Title Image */
 .title-image {
   width: 60%;
   transform: rotate(25deg);
   position: relative;
-  left: 20%;
+  left: 5%;
 }
 
 @media (max-width: 1000px) {
@@ -97,10 +96,6 @@ p {
   color: #fff;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Press Section */
 #press {
   background-color: #ef8172;
@@ -110,17 +105,16 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+  color: #000;
 }
 
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
+  color: #000;
 }
 
-a {
-  color: black;
-}
-
+/* Section */
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
