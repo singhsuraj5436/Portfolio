@@ -21,6 +21,7 @@ p {
 /* Navbar */
 .navbar {
   padding: 0 0 4.5rem;
+  background-color: #ff4c68;
 }
 
 .nav-item {
