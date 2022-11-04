@@ -21,7 +21,7 @@ p {
 /* Navbar */
 .navbar {
   padding: 0 0 4.5rem;
-  background-color: #ff4c68;
+  background-color: #6C4AB6;
 }
 
 .nav-item {
@@ -58,22 +58,24 @@ p {
 }
 
 /* Title Image */
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: relative;
-  left: 5%;
+/* .title-image {
+  border-radius: 10%;
+  width: 70%;
+  height: 90%;
+  /* transform: rotate(25deg); */
+position: relative;
+left: 5%;
 }
 
-@media (max-width: 1000px) {
+*/ @media (max-width: 1000px) {
   .title-text {
     text-align: center;
   }
 
-  .title-image {
+  /* .title-image {
     position: static;
     transform: rotate(0);
-  }
+  } */
 }
 
 /* Feature Section */
@@ -82,24 +84,24 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #8D9EFF;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #6C4AB6;
 }
 
 /* Testimonial Section */
 #testimonials {
-  background-color: #ef8172;
+  background-color: #8D9EFF;
   padding-top: 100px;
   color: #fff;
 }
 
 /* Press Section */
 #press {
-  background-color: #ef8172;
+  background-color: #8D9EFF;
   padding-bottom: 3%;
 }
 
@@ -117,7 +119,7 @@ p {
 
 /* Section */
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #6C4AB6;
   color: #fff;
 }
 
